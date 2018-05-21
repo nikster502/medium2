@@ -1,11 +1,10 @@
-.picturMiddleText {
+.pictureMiddleText {
     display: flex;
     position: relative;
     justify-content: center;
-
 }
 
-.picturMiddleText img {
+.pictureMiddleText img {
     z-index: 0;
     top: 0;
     left: 0;
@@ -13,7 +12,7 @@
     height: 75%
 }
 
-#firstText {
+.firstText {
     padding-top: 43%;
 }
 
@@ -36,26 +35,26 @@
 span.dropcaps {
     font-size: 80px;
     float: left;
-    margin-top: 13px;
+    margin-top: 20px;
     line-height: 0.9;
+    height: 65px;
 }
 
-.block-cirle {
+.blockCirle {
     display: inline-flex;
 }
 
-.block-cirle div {
+.blockCirle div {
     margin-left: 10px;
 }
 
-#inline-blocks {
-
+.inlineBlocks {
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.billboard-block-avatar-block a img {
+.billboardBlockAvatarBlock a img {
     margin: 0;
     padding: 0;
     width: 48px;
@@ -63,18 +62,17 @@ span.dropcaps {
     display: flex;
 }
 
-.billboard-block-avatar-block div p {
+.billboardBlockAvatarBlock div p {
     margin: 0;
     margin-top: 5px;
     width: 200px;
     font-family: 'Lato';
 }
 
-.billboard-block-avatar-block {
+.billboardBlockAvatarBlock {
     display: flex;
     padding-left: 2%;
     padding-top: 1%;
-
     width: 200px;
     height: 50px;
 }
@@ -92,7 +90,7 @@ span.dropcaps {
     height: 100%;
 }
 
-.billboard .billboard-block {
+.billboard .billboardBlock {
     position: absolute;
     bottom: 0;
     color: #fff;
@@ -110,9 +108,11 @@ span.dropcaps {
 .menu {
     display: flex;
 }
-.menu a{
+
+.menu a {
     font-family: 'Lato';
 }
+
 .circle {
     display: inline-block;
     width: 48px;
@@ -149,6 +149,7 @@ span.dropcaps {
 .menu div {
     list-style-type: none;
     margin: auto;
+    margin: auto;
     padding: auto;
     overflow: hidden;
     background-color: white;
@@ -162,7 +163,7 @@ a img {
     padding: 7px 16px;
 }
 
-.menu__item {
+.menuItem {
     display: block;
     justify-content: center;
     color: #333;
@@ -173,7 +174,7 @@ a img {
     font-family: Lato;
 }
 
-.menu__item:hover:not(.active) {
+.menuItem:hover:not(.active) {
     background-color: #3ec28f;
 }
 
@@ -181,10 +182,7 @@ a img:hover:not(.active) {
     background-color: #3ec28f;
 }
 
-
-
 html {
-
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
@@ -192,7 +190,7 @@ html {
 
 body {
     min-height: 100%;
-    min-width: 100% 
+    min-width: 100%;
     position: absolute;
     width: 100%;
     max-width: 100%;
@@ -201,15 +199,15 @@ body {
 
 @font-face {
     font-family: Lora;
-    src: url(fonts/Lora.ttf);
+    src: url(https://fonts.googleapis.com/css?family=Lora);
 }
 
 @font-face {
     font-family: Lato;
-    src: url(fonts/Lato.ttf);
+    src: url(https://fonts.googleapis.com/css?family=Lato);
 }
 
 @font-face {
     font-family: Playfair Display;
-    src: url(fonts/PlayfairDisplay-Bold.ttf);
+    src: url(https://fonts.googleapis.com/css?family=Playfair+Display);
 }
