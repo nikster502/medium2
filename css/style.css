@@ -1,3 +1,60 @@
+.picturMiddleText {
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+
+.picturMiddleText img {
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 75%
+}
+
+#firstText {
+    padding-top: 43%;
+}
+
+.text {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin: auto;
+}
+
+.text p {
+    font-size: 18px;
+    font-family: "Lato";
+}
+
+.text p {
+    line-height: 1.9;
+}
+
+span.dropcaps {
+    font-size: 80px;
+    float: left;
+    margin-top: 13px;
+    line-height: 0.9;
+}
+
+.block-cirle {
+    display: inline-flex;
+}
+
+.block-cirle div {
+    margin-left: 10px;
+}
+
+#inline-blocks {
+
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .billboard-block-avatar-block a img {
     margin: 0;
     padding: 0;
@@ -9,7 +66,8 @@
 .billboard-block-avatar-block div p {
     margin: 0;
     margin-top: 5px;
-    width: 200px
+    width: 200px;
+    font-family: 'Lato';
 }
 
 .billboard-block-avatar-block {
@@ -38,12 +96,13 @@
     position: absolute;
     bottom: 0;
     color: #fff;
-    padding-left: 129px;
+    padding-left: 10%;
     padding-bottom: 50px;
+    width: 80%;
 }
 
 .billboard h1 {
-    font-family: Playfair Display, Arial, Helvetica, sans-serif;
+    font-family: 'Playfair Display';
     font-size: 54px;
     margin: 0;
 }
@@ -51,7 +110,9 @@
 .menu {
     display: flex;
 }
-
+.menu a{
+    font-family: 'Lato';
+}
 .circle {
     display: inline-block;
     width: 48px;
@@ -68,11 +129,8 @@
     top: 12px;
     left: 12px;
     position: relative;
-
     display: flex;
-
     justify-content: center;
-    /*Центрирование по горизонтали*/
     align-items: center;
 }
 
@@ -123,13 +181,35 @@ a img:hover:not(.active) {
     background-color: #3ec28f;
 }
 
+
+
 html {
-    height: 100%;
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
-
-    position: absolute;
     min-height: 100%;
-    min-width: 100%
+    min-width: 100% 
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Lora;
+    src: url(fonts/Lora.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato.ttf);
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(fonts/PlayfairDisplay-Bold.ttf);
 }
