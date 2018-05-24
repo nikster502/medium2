@@ -32,12 +32,16 @@
     line-height: 1.9;
 }
 
-span.dropcaps {
+p.dropcaps {
     font-size: 80px;
     float: left;
+    margin: 0;
+    font-family: 'Playfair Display';
     margin-top: 20px;
+    margin-right: 10px;
     line-height: 0.9;
     height: 65px;
+    
 }
 
 .blockCirle {
