@@ -35,17 +35,18 @@
     width: 200px;
     height: 50px;
 }
-.description__avatar-name,.description__text {
+.description__avatar-name,
+.description__text {
     margin: 0;
     margin-top: 5px;
     width: 200px;
     font-family: 'Lato';
 }
-.description__text {} .info__socials {
+.info__socials {
     display: inline-flex;
     margin-left: 10px;
 }
-.socials__views {} .views__num {} .socials__icon {
+.socials__icon {
     display: inline-block;
     width: 48px;
     height: 48px;
@@ -78,7 +79,7 @@
     flex-direction: column;
     margin: auto;
 }
-.text__paragraph {} .text__first-paragraph {
+.text__first-paragraph {
     padding-top: 63%;
 }
 .first-paragraph__dropcaps {
@@ -107,7 +108,7 @@
     position: relative;
     justify-content: center;
 }
-.content__text {} .text__paragraph {} .content__picture-in-text {
+.content__picture-in-text {
     display: flex;
     position: relative;
     justify-content: center;
