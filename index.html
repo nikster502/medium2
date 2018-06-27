@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>medium2</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <link rel="stylesheet" type="text/css" href="css/article.css">
 </head>
 
 <body>
@@ -23,52 +25,46 @@
             <a class="menu__link" href="#">Featured</a>
         </div>
         <div class="header__user-menu user-menu">
-            <a class="user-menu__link link" href="#">
-                <img class="link__icon" src="foto/kolocol.png" alt="picture">
+            <a class="user-menu__link" href="#">
+                <img class="user-menu__icon" src="foto/kolocol.png" alt="picture">
             </a>
-            <a class="user-menu__link link" href="#">
-                <img class="link__icon" src="foto/search.png" alt="picture">
+            <a class="user-menu__link" href="#">
+                <img class="user-menu__icon" src="foto/search.png" alt="picture">
             </a>
-            <a class="user-menu__link link" href="#">
-                <img class="link__avatar" src="foto/profileFoto.png" alt="picture">
+            <a class="user-menu__link" href="#">
+                <img class="user-menu__avatar" src="foto/profileFoto.png" alt="picture">
             </a>
         </div>
     </header>
-    
-    <div class="content">
-        <div class="content__billboard billboard">
-            <img class="billboard__article-img" src="./foto/fon.jpg" alt="picture">
-            <div class="billboard__article article">
-                <h1 class="article__title title">The nature of intelligence</h1>
-                <div class="article__info info">
-                    <div class="info__avatar avatar">
-                        <a class="avatar__link link" href="#">
-                            <img class="link__avatar-img" src="foto/avatar.png" alt="picture">
-                        </a>
-                        <div class="avatar__description description">
-                            <p class="description__avatar-name">Tautvilas Mečinskas</p>
-                            <p class="description__text">Jan, 27 2018</p>
-                        </div>
+    <div class="article">
+        <div class="article__header" style="background-image: url(foto/fon.jpg);">
+            <h1 class="article__heading">The nature of intelligence</h1>
+            <div class="article__wrapper">
+                <div class="article__owner avatar">
+                    <img class="avatar__userpic" src="foto/avatar.png" alt="picture">
+                    <div class="avatar__wrapper">
+                        <p class="avatar__name">Tautvilas Mečinskas</p>
+                        <p class="avatar__meta">Jan, 27 2018</p>
                     </div>
-                    <div class="info__socials socials">
-                        <div class="socials__views views">
-                            <p class="views__num">2.5</p>
-                        </div>
-                        <div class="socials__icon icon">
-                            <img class="icon__like" src="foto/Vector.png" alt="picture">
-                        </div>
-                        <div class="socials__icon icon">
-                            <img class="icon__repost" src="foto/flag.png" alt="picture">
-                        </div>
-                    </div>
+                </div>
+                <div class="article__buttons">
+                    <p class="article__num-view">
+                        2.5k
+                    </p>
+                    <button class="article__btn like" style="background-image: url(foto/Vector.png)">
+                    </button>
+
+                    <button class="article__btn repost" style="background-image: url(foto/flag.png)">
+                    </button>
                 </div>
             </div>
         </div>
-        
-        <div class="content__text text">
-            <div class="text__first-paragraph first-paragraph">
-                <p class="first-paragraph__dropcaps">I</p>
-                <p class="first-paragraph__text">
+
+
+        <div class="article__text text">
+            <div class="article__paragraph  article__paragraph_first">
+                <p class="article__dropcaps">I</p>
+                <p class="text__paragraph">
                     have always been interested in the subject of Artificial Intelligence. It is because by building AI we are learning valuable lessons about ourselves. After all, we consider us to be intelligent, but are not really sure what that means. AI is an attempt to reverse engineer our mind and to define intelligence by creating an abstracted version of it. Can AI become smarter than us? What is the true nature of intelligence? These are the questions that make me wonder.
                 </p>
             </div>
@@ -79,11 +75,8 @@
                 We have lost tic-tac-toe, checkers and chess to a digital mind long time ago. These board games are closed environment discreet systems that have winning conditions and rules strictly defined. Older AIs used mostly brute-force and sheer computing power to win against humans. DNNs however are solving problems using Evolved pattern recognition. This way they can tackle more fuzzy and human-like problems that have vast solution search space.
             </p>
         </div>
-        
-        <div class="content__picture-in-text picture-in-text">
-            <img class="picture-in-text__img" src="foto/Picture.jpg" alt="picture">
-        </div>
-        <div class="content__text text">
+        <img class="article__picture-in-text" src="foto/Picture.jpg" alt="picture">
+        <div class="article__text text">
             <p class="text__paragraph">
                 The holy grail of the field of AI is to develop the so-called seed intelligence or general purpose intelligence. A program that would exhibit such properties would be able to modify itself and perform general purpose tasks that have been given to it. In its versatility and adaptation it would be similar to human intelligence. Since such intelligence would be digital it might be many times more efficient than our meaty brains and could quickly modify itself to become much more advanced than homo sapiens.
             </p>
@@ -91,10 +84,7 @@
                 So we have been able to develop AI that outmatches humans in specific computational tasks, but still have no good clue how to build an AI that is generic, can adapt itself and creatively solve a wide range of tasks. Artificial neural networks might be a part of this puzzle, but something important is still missing. It seems that we have solved separate parts of intelligence, but we still don’t know how to glue them together. I feel that in order to unravel this problem we need a better general understanding of the nature of intelligence.
             </p>
         </div>
-        
-        <div class="content__picture-in-text picture-in-text">
-            <img class="picture-in-text__img" src="foto/Picture.jpg" alt="picture">
-        </div>
+        <img class="picture-in-text__picture-in-text" src="foto/Picture.jpg" alt="picture">
     </div>
 </body>
 

@@ -1,4 +1,108 @@
+.article__header {
+    padding: 40px 0;
+    box-sizing: border-box;
+    height: 584px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.article__heading {
+    font-family: 'Playfair Display';
+    font-size: 54px;
+    color: #fff;
+    padding-left: 10%;
+    padding-top: 15%;
+    width: 80%;
+}
+.article__wrapper {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.article__owner {
+    display: flex;
+    padding-left: 10%;
+    padding-top: 1%;
+    width: 200px;
+    height: 50px;
+}
+.avatar{
+    display: flex;
+    align-items: space-between;
+}
+.avatar__userpic {
+    width: 48px;
+    height: 48px;
+}
+.avatar__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+.avatar__name {
+    margin: 0;
+    margin-top: 5px;
+    width: 200px;
+    font-family: 'Lato';
+}
+.avatar__meta {
+    margin: 0;
+    margin-top: 5px;
+    width: 200px;
+    font-family: 'Lato';
+    font-style: oblique;
+    color: gainsboro;
+}
+.article__buttons {
+    display: inline-flex;
+    padding-right: 10%;
+}
+.article__btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.article__num-view {
+    font-family: 'Lora';
+    color: gainsboro;
+}
+.article__num-view,
+.article__btn {
+    margin-left: 10px;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.article__btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .content__billboard {
     display: inline-block;
     position: absolute;
@@ -65,7 +169,7 @@
     justify-content: center;
     align-items: center;
 }
-.icon__like{
+.icon__like {
     top: 22%;
     left: 25%;
 }
@@ -120,11 +224,5 @@
     width: 75%;
     height: 75%
 }
-@font-face {
-    font-family: Lora;
-    src: url(https://fonts.googleapis.com/css?family=Lora);
-}
-@font-face {
-    font-family: Playfair Display;
-    src: url(https://fonts.googleapis.com/css?family=Playfair+Display);
-}
+
+*/
