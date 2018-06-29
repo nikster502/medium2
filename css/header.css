@@ -13,10 +13,10 @@
     font-family: 'Lato';
 }
 .user-menu{
-        display: flex;
+    display: flex;
 }
 .user-menu__icon {
-            display: block;
+    display: block;
     justify-content: center;
     text-align: center;
     padding: 12px 16px;
